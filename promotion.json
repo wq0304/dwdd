@@ -1,0 +1,30 @@
+[
+	{
+		"img1":"images/promo1.jpg",
+		"img2":"images/promo2.jpg",
+		"img3":"images/promo3.jpg"
+	},
+	{
+		"img4":"images/promo4.jpg",
+		"img5":"images/promo5.jpg",
+		"img6":"images/promo6.jpg"
+	},
+	{
+		"src1":"images/pro1.jpg",
+		"src2":"images/pro2.jpg",
+		"src3":"images/pro3.jpg",
+		"src4":"images/pro4.jpg",
+		"src5":"images/pro5.jpg",
+		"src6":"images/pro6.jpg"
+		
+
+	},{
+		"src7":"images/pro1-1.jpg",
+		"src8":"images/pro2-2.jpg",
+		"src9":"images/pro3-3.jpg",
+		"src10":"images/pro4-4.jpg",
+		"src11":"images/pro5-5.jpg",
+		"src12":"images/pro6-6.jpg"
+
+	}
+]

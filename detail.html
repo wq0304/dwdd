@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="css/detail.css">
+	<script src="js/require.js" defer async="true" data-main="js/detail-main"></script>
+</head>
+<body>
+<!--top-->
+	<div class="top" id="top">
+		<div class="top-con">
+			<!--  <img src="images/top.jpg" alt="">  -->
+		</div>
+	</div>
+<!--header-->
+	<div class="header">
+		<div class="header-con">
+			<ul class="header-ul1">
+				<li>
+					<a href="#" class="index-a"><span>第五大道首页</span></a>
+				</li>
+				<li>
+					<a href="#" class="phone-a"><span>贵宾专线：4008-6767-38</span></a>
+				</li>
+			</ul>
+			<div class="login-box">
+				<dl class="header-dl1">
+					<dt class="login">
+						<a href="/theFive/dist/login.html" class="login-a">
+							登录
+							<i></i>
+						</a>
+
+					</dt>
+					<dt class="regist">
+						<a href="/theFive/dist/regist.html" class="regist-a">
+							<span>注册</span>
+							
+						</a>
+						<i></i>
+					</dt>
+				</dl>
+			</div>
+			<dl class="my-five">
+				<dt>
+					<a href="#" class="myfive-a">
+						我的第五大道
+						<em id="myfive-em"></em>
+					</a>
+					<i></i>
+				</dt>
+				<dd id="myfive-dd">
+					<ul>
+						<li>
+							<a href="#">我的订单</a>
+						</li>
+						<li>
+							<a href="#">我的收藏</a>
+						</li>
+						<li>
+							<a href="#">我的礼券</a>
+						</li>
+						<li>
+							<a href="#">我的积分</a>
+						</li>
+						<li>
+							<a href="#">已购产品</a>
+						</li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="help">
+				<dt>
+					<a href="#">
+						帮助中心
+					</a>
+					<i></i>
+				</dt>
+			</dl>
+			<dl class="phonedown">
+				<dt>
+					<a href="#">手机版下载</a>
+					<em></em>
+				</dt>
+				<dd class="phone-qr">
+					<ul>
+						<li>
+							<img src="images/qr.jpg" alt="">
+							<p>扫描下载App</p>
+							<p class="phone-zengsong">
+								立即
+								<span>赠送50元</span>
+							</p>
+						</li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div>
+<!--导航-->	
+	<div class="logo">
+		<div class="logo-con">
+			<div class="logo-pic">
+				<a href="#">
+					<img src="images/logo.jpg" alt="">
+				</a>
+			</div>
+			<div class="logo-ad">
+				<a href="#">
+					<img src="images/yijian.jpg" alt="">
+				</a>
+			</div>
+			<div class="search">
+				<form action="">
+					<p>
+						<input type="text"placeholder="太阳镜" class="search-input1">
+						<input type="button"class="search-input2" value="搜索">
+					</p>
+				</form>
+				<ul class="search-ul1">
+					<!-- <li>
+						<a href="#">
+							连衣裙
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							美妆
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							运动户外
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							箱包
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							配饰
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							腕表
+						</a>
+					</li> -->
+				</ul>
+			</div>
+			<div class="seaenter">
+					<a href="#">
+						<p>
+							
+						</p>
+					</a>
+			</div>
+			<div class="caring">
+				<a href="/theFive/dist/shop-car.html">
+					<span id="carNum">
+						(0)
+					</span>
+					<i>
+						>
+					</i>
+				</a>
+				<div class="hide-car">
+					<h2>
+						购物袋中的商品
+					</h2>
+					<!-- <div class="hidecar1">
+						<img src="images/cargood1.jpg" alt="">
+						<div class="hidecar1-txt">
+							<p class="hidecar1-p1">
+								Louis Vuitton 路易威登 预...棕色系
+							</p>
+							<p class="hidecar1-p2">
+								<span>
+									¥14500.00	
+								</span>
+								<em>
+									×1件
+								</em>
+							</p>
+						</div>
+					</div>
+					 -->
+					
+					<div class="hidecar1-sub">
+						<a href="#">
+							<div class="hidecar1-box">
+								去购物车结算
+							</div>		
+						</a>
+					</div>
+					
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+<!--nav-->
+	<div class="nav">
+		<div class="nav-con">
+			<ul class="nav-ul1">
+				<li class="classify"id="classify-li">
+					<a href="/list.html" targer ="_blank" class="classify-a" id="commodity">
+						商品分类
+					</a>
+					<div class="menu-left">
+						<ul class="menu-box">
+							<!-- <li>
+								<div class="menu-fenlei">
+									<a href="#">span>推荐品牌</span></a><
+								</div >
+								<div class="menu-xiangqing"id="menu-zong">
+									<div class="xiangqing1">
+										<h2>
+											<a href="#" class="active-nav">
+												高端品牌
+											</a>
+										</h2>
+										<div class="a">
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+										</div>
+									</div>
+									<div class="xiangqing1">
+										<h2>
+											<a href="#">
+												高端品牌
+											</a>
+										</h2>
+										<div class="a">
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+										</div>
+									</div>
+									<div class="xiangqing1">
+										<h2>
+											<a href="#">
+												高端品牌
+											</a>
+										</h2>
+										<div class="a">
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+											<a href="#">chenal</a>
+										</div>
+									</div>
+									<div class="xiangqing-btn">
+										<a href="#">进入详情频道</a>
+										<a href="#">闪电发货去</a>
+									</div>
+								</div>
+							</li> -->
+							
+						</ul>
+					</div>
+
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						品牌
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						最新
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						男士
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						女士
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						生活馆
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						海外馆
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						时尚
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						特惠
+					</a>
+				</li>
+				<li >
+					<a href="#"class="classify-a">
+						礼品区
+					</a>
+				</li>
+				<li class="find-store">
+					<a href="#"class="classify-a">
+						<i></i>
+						<span>到店</span>
+					</a>
+				</li>
+				
+			</ul>
+			<a href="#">
+				<div class="fly-sea">
+					
+				</div>
+			</a>
+			<ul class="nav-icon">
+				<li>
+					<a href="#">
+						<span class="icon-1"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-2"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-3"></span>
+					</a>
+				</li>
+			</ul>
+		</div>	
+	</div>
+<!--detail-bao-->
+	<div class="detail">
+		<div class="detail-con">
+			<div class="shopdetail">
+				<ul class="shop-topimg" id="topimg">
+					<!-- <li style="z-index: 1">
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/list-bao (3).jpg" alt="">
+					</li>
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot2.jpg" alt="">
+					</li>
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot3.jpg" alt="">
+					</li>
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot4.jpg" alt="">
+					</li>
+					
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot5.jpg" alt="">
+					</li>
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot6.jpg" alt="">
+					</li>
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot7.jpg" alt="">
+					</li>
+					<li>
+						<span class="mark">
+							
+						</span>
+						<span class="float">
+							
+						</span>
+						<img src="images/bot8.jpg" alt="">
+					</li>	 -->
+				</ul>
+				<div class="shop-botimg" >
+					<span class="botimg-btn1" id="botbtn1">
+						<
+					</span>
+					<ul class="botimg-img" id="bottom-botimg">
+						<!-- <li class="botimg-li1">
+							<img src="images/bot1.jpg" alt="">
+						</li>
+						<li class="botimg-li2">
+							<img src="images/bot2.jpg" alt="">
+						</li>
+						<li class="botimg-li3">
+							<img src="images/bot3.jpg" alt="">
+						</li>
+						<li class="botimg-li4">
+							<img src="images/bot4.jpg" alt="">
+						</li>
+						<li class="botimg-li5">
+							<img src="images/bot5.jpg" alt="">
+						</li>
+						<li class="botimg-li6">
+							<img src="images/bot6.jpg" alt="">
+						</li>
+						<li class="botimg-li7">
+							<img src="images/bot7.jpg" alt="">
+						</li>
+						<li class="botimg-li8">
+							<img src="images/bot8.jpg" alt="">
+						</li> -->
+					</ul>
+					<span class="botimg-btn2" id="botbtn2">
+						>
+					</span>	
+				</div>
+				<div class="shop-share">
+					<span class="shoucang">
+						<a href="#">收藏</a>
+					</span>
+					<span class="fenxiang">
+						<a href="#">分享</a>
+					</span>
+				</div>
+				<div class="hiden-bigimg" id="big_pic">
+					<!-- <img src="images/bot1.jpg" alt="" style="z-index: 1">
+					<img src="images/bot2.jpg" alt="">
+					<img src="images/bot3.jpg" alt="">
+					<img src="images/bot4.jpg" alt="">
+					<img src="images/bot5.jpg" alt="">
+					<img src="images/bot6.jpg" alt="">
+					<img src="images/bot7.jpg" alt="">
+					<img src="images/bot8.jpg" alt=""> -->
+				</div>
+			</div>
+			<div class="shopintroduce">
+				<div class="shoptitle">
+					<p class="shoptitle-p1">
+						<a href="#">Louis Vuitton/LV路易.威登</a>
+					</p>
+					<p class="shoptitle-p2">
+						<!-- <a href="#">【预定一个月】 METIS 邮差包 棕色女士手拿包 M40780</a> -->
+					</p>
+					<p class="shoptitle-p3">
+						货号: 5Lux082814g_p182404
+					</p>
+				</div>
+				<div class="shopprice">
+					<div class="pricem">
+						<div class="shopprice-left">
+							<div class="vip-1">
+								<span class="vip-span1"><!-- ￥14500 --></span>
+								<span class="vip-span2">
+									红卡会员价
+									<span class="vipspan2-son">
+										
+									</span>
+								</span>
+							</div>
+							<div class="fenqi">
+								<span class="fenqi-span1">分期价</span>
+								<span class="fenqi-span2">￥1298.86*12期</span>
+							</div>
+						</div>
+						<div class="shopprice-right">	
+							
+							<span class="maspan2">扫码下载客户端</span>
+						</div>
+					
+					</div>
+					<div class="pricepic">
+						<a href="3"><img src="images/goumai.png" alt=""></a>
+					</div>
+				</div>
+				<div class="active-shop">
+					<span class="active-span1">
+						活动
+					</span>
+					<span class="active-span2">
+    				订单满9999元送价值1199元时尚管家服务
+					</span>
+					<span>></span>
+				</div>
+				<div class="color">
+					<p class="color-p1">
+						<span class="colorp1-span1">颜色</span>
+						<!-- <span class="colorp1-span2">棕色</span> -->
+					</p>
+					<p class="color-p2">
+						<span class="spannum">数量</span>
+						<span class="spanjia">+</span>
+						<input type="text" value="1" class="liang">
+						<span class="spanjian" >-</span>
+					</p>
+				</div>
+				<div class="join-car">
+					<img src="images/mendian_03.jpg" alt="">
+					<div class="rightnow">
+						<input type="button" value="立即购买">
+						<input type="button" value="加入购物车" id="shopping-car">
+					</div>
+				</div>
+				<div class="baozhang">
+					<a href="#">
+						<img src="images/bao_03.jpg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--detail-bot-->
+	<div class="detail-hot">
+		<div class="detailhot-con">
+			<div class="detailhot-left1">
+				第五大道官网
+
+			</div>
+			<div class="detailhot-right">
+				<ul class="detail-ul1">
+					<li>
+						
+							商品详情
+						
+					</li>
+					<li>
+						尺寸参照
+					</li>
+					<li>
+						商品评价
+					</li>
+					<li class="detailhot-li4">
+						
+							手机购买
+						
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+<!--detail-min-->
+	<div class="detailmin clear-fix">
+		<div class="detailmin-con clear-fix">
+			<div class="detailmin-left">
+				<div class="detail-pinpai">
+					热销排行
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+				<div class="detail-paihang">
+					<div class="paihang-box">
+						<img src="images/1.jpg" alt="">
+					
+					<p>
+						FELICIE 咖啡色logo印花大号手袋 M61276
+
+					</p>
+					<p>
+						￥7448
+					</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="detailmin-right clear-fix ">
+				<div class="minheight-box clear-fix">
+					<div class="detail-pic">
+						<div class="detail-sea">
+							<img src="images/des.jpg" alt="">
+						</div>
+						<div class="detail-huabei">
+							<img src="images/des2.jpg" alt="">
+							<img src="images/des3.jpg" alt="">
+						</div>
+						<div class="detail-story">
+							<h2>
+								<img src="images/story.jpg" alt="">
+
+							</h2>
+							<img src="images/story1.png" alt="" class="story1">
+						</div>
+					</div>	
+					<div class="detail-chicun">
+						<img src="images/chicun1.jpg" alt="">
+						<img src="images/chicun2.jpg" alt="">
+						<img src="images/chicun2.jpg" alt="">
+					</div>
+					<div class="detail-pingjia">
+						<img src="images/fanxian.png" alt="">
+					</div>
+					
+				</div>
+				<div class="youlike">
+						<h3>
+							<img src="images/youlike.jpg" alt="">
+						</h3>
+						<div class="youlike-pic">
+							<a href="#"class="aaa">
+							
+								<div class="youlike-pic1">
+									<div class="img-biao">
+										<img src="images/biao1.jpg" alt="">
+									</div>
+									<div class="text-biao">
+										<p class="biao-p1">Daniel Wellington/DW 丹尼尔·惠灵顿
+	  								 	</p>
+										<p> 深棕色表带白色表盘中性针扣石英腕表 DW1123</p>
+										<div>
+											￥1404
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#"class="aaa">
+							
+								<div class="youlike-pic1">
+									<div class="img-biao">
+										<img src="images/biao1.jpg" alt="">
+									</div>
+									<div class="text-biao">
+										<p class="biao-p1">Daniel Wellington/DW 丹尼尔·惠灵顿
+	  								 	</p>
+										<p> 深棕色表带白色表盘中性针扣石英腕表 DW1123</p>
+										<div>
+											￥1404
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#"class="aaa">
+							
+								<div class="youlike-pic1">
+									<div class="img-biao">
+										<img src="images/biao1.jpg" alt="">
+									</div>
+									<div class="text-biao">
+										<p class="biao-p1">Daniel Wellington/DW 丹尼尔·惠灵顿
+	  								 	</p>
+										<p> 深棕色表带白色表盘中性针扣石英腕表 DW1123</p>
+										<div>
+											￥1404
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#"class="aaa">
+							
+								<div class="youlike-pic1">
+									<div class="img-biao">
+										<img src="images/biao1.jpg" alt="">
+									</div>
+									<div class="text-biao">
+										<p class="biao-p1">Daniel Wellington/DW 丹尼尔·惠灵顿
+	  								 	</p>
+										<p> 深棕色表带白色表盘中性针扣石英腕表 DW1123</p>
+										<div>
+											￥1404
+										</div>
+									</div>
+								</div>
+							</a>
+						
+						</div>
+						
+				</div>
+				
+				
+			</div>
+			
+		</div>
+	</div>
+<!--bottom-->
+	<div class="bottom">
+		<div class="bottom-con">
+			<div class="bottom1">
+				<div class="bottom11">
+					<div class="bottom11-pic">
+						<a href="#">
+							<img src="images/baozhang.jpg" alt="">
+						</a>
+					</div>
+					<div class="bottom11-txt">
+						<p class="txt-p1">正品保障</p>
+						<p class="txt-p2">
+							<a href="#">
+								正品授权，官方验证
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="bottom11">
+					<div class="bottom11-pic">
+						<a href="#">
+							<img src="images/baozhang.jpg" alt="">
+						</a>
+					</div>
+					<div class="bottom11-txt">
+						<p class="txt-p1">正品保障</p>
+						<p class="txt-p2">
+							<a href="#">
+								正品授权，官方验证
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="bottom11">
+					<div class="bottom11-pic">
+						<a href="#">
+							<img src="images/baozhang.jpg" alt="">
+						</a>
+					</div>
+					<div class="bottom11-txt">
+						<p class="txt-p1">正品保障</p>
+						<p class="txt-p2">
+							<a href="#">
+								正品授权，官方验证
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="bottom11">
+					<div class="bottom11-pic">
+						<a href="#">
+							<img src="images/baozhang.jpg" alt="">
+						</a>
+					</div>
+					<div class="bottom11-txt">
+						<p class="txt-p1">正品保障</p>
+						<p class="txt-p2">
+							<a href="#">
+								正品授权，官方验证
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="bottom11">
+					<div class="bottom11-pic">
+						<a href="#">
+							<img src="images/baozhang.jpg" alt="">
+						</a>
+					</div>
+					<div class="bottom11-txt">
+						<p class="txt-p1">正品保障</p>
+						<p class="txt-p2">
+							<a href="#">
+								正品授权，官方验证
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="bottom2">
+				<div class="foot-top">
+					<ul class="foottop-ul">
+						<li>
+							<span class="sp01">服务保障</span>
+							<span>
+								<a href="#">品牌授权正品</a>
+							</span>
+							<span>
+								<a href="#">预约到店体验</a>
+							</span>
+							<span>
+								<a href="#">品牌客服</a>
+							</span>
+							<span>
+								<a href="#">7天无理由退换</a>
+							</span>
+						</li>
+						<li>
+							<span class="sp01">服务保障</span>
+							<span>
+								<a href="#">品牌授权正品</a>
+							</span>
+							<span>
+								<a href="#">预约到店体验</a>
+							</span>
+							<span>
+								<a href="#">品牌客服</a>
+							</span>
+							<span>
+								<a href="#">7天无理由退换</a>
+							</span>
+						</li>
+						<li>
+							<span class="sp01">服务保障</span>
+							<span>
+								<a href="#">品牌授权正品</a>
+							</span>
+							<span>
+								<a href="#">预约到店体验</a>
+							</span>
+							<span>
+								<a href="#">品牌客服</a>
+							</span>
+							<span>
+								<a href="#">7天无理由退换</a>
+							</span>
+						</li>
+						<li>
+							<span class="sp01">服务保障</span>
+							<span>
+								<a href="#">品牌授权正品</a>
+							</span>
+							<span>
+								<a href="#">预约到店体验</a>
+							</span>
+							<span>
+								<a href="#">品牌客服</a>
+							</span>
+							<span>
+								<a href="#">7天无理由退换</a>
+							</span>
+						</li>
+						<li>
+							<span class="sp01">服务保障</span>
+							<span>
+								<a href="#">品牌授权正品</a>
+							</span>
+							<span>
+								<a href="#">预约到店体验</a>
+							</span>
+							<span>
+								<a href="#">品牌客服</a>
+							</span>
+							<span>
+								<a href="#">7天无理由退换</a>
+							</span>
+						</li>
+						<li class="weibo">
+							<span class="sp01">
+								第五大道App
+							</span>
+							<span>
+								<img src="images/weibo.jpg" alt="">
+							</span>
+						</li>
+						<li class="weibo">
+							<span class="sp01">
+								第五大道App
+							</span>
+							<span>
+								<img src="images/weibo.jpg" alt="">
+							</span>
+						</li>
+					</ul>
+				</div>	
+				<div class="foot-bottom">
+					<div class="mess-btm">
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						|
+						<a href="#">箱包</a>
+						
+					</div>
+					<div class="mess-btm2">
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						|
+						<a href="#">网站地图</a>
+						
+						<p>
+						Copyright © 2008-2016 瑞美嘉信国际信息技术（北京）有限公司  版权所有京ICP备09012701号-1 京公网安备110105007400号 食品经营许可证号：	
+						</p>
+					</div>
+					<div class="mess-btm3">
+						<a href="#">
+							<img src="images/zhongyang.jpg" alt="">
+						</a>
+						<a href="#">
+							<img src="images/zhongyang.jpg" alt="">
+						</a>
+						<a href="#">
+							<img src="images/zhongyang.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

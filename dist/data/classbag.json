@@ -1,0 +1,43 @@
+[{
+	"s1":"单肩包",
+	"s2":"手提包",
+	"s3":"手提斜跨包",
+	"s4":"双肩包",
+	"s5":"手拿包",
+	"s6":"钱包",
+	"s7":"小皮件",
+	"s8":"旅行箱/包",
+	"s9":"斜挎包",
+	"s10":"化妆箱/包"
+	},
+	{
+		"src1":"images/lv.png",
+		"src2":"images/lv.png",
+		"src3":"images/lv.png",
+		"src4":"images/lv.png",
+		"src5":"images/coach.png",
+		"src6":"images/coach.png",
+		"src7":"images/coach.png",
+		"src8":"images/coach.png",
+		"src9":"images/chloe.png",
+		"src10":"images/chloe.png",
+		"src11":"images/chloe.png",
+		"src12":"images/chloe.png"
+		
+		
+	},
+	{
+		"img":"images/lvbao.jpg",
+		"txt1":"valentino瓦伦蒂诺",
+		"txt2":"精巧铆钉",
+		"txt3":"精显率真气质"
+	},
+	{
+		"img1":"images/jiage.jpg",
+		"img2":"images/caro.jpg",
+		"img3":"images/jeans.jpg",
+		"img4":"images/pon.jpg"
+	}
+
+
+]

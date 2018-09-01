@@ -1,0 +1,41 @@
+[{
+	"0":{
+		"id":"0",
+		"img1":"images/hong1.jpg",
+		"img2":"images/hong2.jpg",
+		"img3":"images/hong3.jpg",
+		"img4":"images/hong4.jpg",
+		"img5":"images/hong5.jpg",
+		"jieshao":"Petite Malle 红色Epi 皮革女士复古手袋 M50013",
+		"color":"红色",
+		"price":"￥37525"
+	},
+	"1":{
+		"id":"1",
+		"img1":"images/hei1.jpg",
+		"img2":"images/hei2.jpg",
+		"img3":"images/hei3.jpg",
+		"img4":"images/hei4.jpg",
+		"img5":"images/hei5.jpg",
+		"img6":"images/hei6.jpg",
+		"img7":"images/hei7.jpg",
+		"jieshao":"MICHAEL 灰色格纹男士双肩包 N58024",
+		"color":"灰色",
+		"price":"￥14500"
+	},
+	"2":{
+		"id":"2",
+		"img1":"images/list-bao (3).jpg",
+		"img2":"images/bot2.jpg",
+		"img3":"images/bot3.jpg",
+		"img4":"images/bot4.jpg",
+		"img5":"images/bot5.jpg",
+		"img6":"images/bot6.jpg",
+		"img7":"images/bot7.jpg",
+		"img8":"images/bot8.jpg",
+		"jieshao":"【预定一个月】 METIS 邮差包 棕色女士手拿包 M40780",
+		"color":"棕色",
+		"price":"￥18326"
+	}
+}
+]

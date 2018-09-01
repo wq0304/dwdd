@@ -1,0 +1,1110 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  background: url(../images/brand01.jpg) no-repeat; }
+
+.top {
+  height: 80px;
+  width: 100%;
+  background: blue; }
+  .top img {
+    width: 100%;
+    height: 100%; }
+  .top .top-con {
+    width: 100%;
+    margin: 0 auto; }
+
+.header {
+  height: 30px;
+  width: 100%;
+  background: #f2f2f2; }
+  .header .header-con {
+    height: 30px;
+    width: 1200px;
+    margin: 0 auto; }
+    .header .header-con .header-ul1 {
+      height: 30px;
+      color: #666666;
+      font-size: 12px;
+      width: 500px;
+      float: left;
+      margin-right: 140px; }
+      .header .header-con .header-ul1 li {
+        float: left; }
+      .header .header-con .header-ul1 a {
+        height: 18px;
+        width: 106px;
+        border-right: 1px solid #dfdfdf;
+        display: block;
+        color: #666666;
+        margin-top: 8px; }
+      .header .header-con .header-ul1 .index-a {
+        background: url(../images/home.png) no-repeat 0px 0px; }
+        .header .header-con .header-ul1 .index-a:hover {
+          color: orange; }
+        .header .header-con .header-ul1 .index-a span {
+          margin-left: 20px; }
+      .header .header-con .header-ul1 .phone-a {
+        width: 250px;
+        border: 0;
+        background: url(../images/line_bg.png) no-repeat;
+        margin-left: 5px; }
+        .header .header-con .header-ul1 .phone-a span {
+          margin-left: 25px; }
+    .header .header-con .header-dl1 {
+      width: 188px;
+      height: 30px;
+      color: #666;
+      font-size: 12px;
+      float: left; }
+      .header .header-con .header-dl1 dt {
+        float: left; }
+      .header .header-con .header-dl1 .login {
+        position: relative; }
+        .header .header-con .header-dl1 .login .login-a {
+          display: block;
+          width: 50px;
+          height: 30px;
+          line-height: 30px;
+          position: relative;
+          padding-left: 50px;
+          color: #666; }
+          .header .header-con .header-dl1 .login .login-a:hover {
+            color: #d00; }
+        .header .header-con .header-dl1 .login i {
+          width: 1px;
+          height: 12px;
+          position: absolute;
+          right: 0;
+          top: 9px;
+          background: #dfdfdf; }
+      .header .header-con .header-dl1 .regist {
+        position: relative; }
+        .header .header-con .header-dl1 .regist .regist-a {
+          display: block;
+          width: 88px;
+          height: 30px;
+          line-height: 30px;
+          color: #666;
+          background: url(../images/youli.gif) no-repeat 15px 0px; }
+          .header .header-con .header-dl1 .regist .regist-a span {
+            margin-left: 45px; }
+        .header .header-con .header-dl1 .regist i {
+          width: 1px;
+          height: 12px;
+          position: absolute;
+          right: 0;
+          top: 9px;
+          background: #dfdfdf; }
+    .header .header-con .my-five {
+      width: 130px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      float: left;
+      font-size: 12px;
+      position: relative; }
+      .header .header-con .my-five a {
+        color: #666; }
+        .header .header-con .my-five a em {
+          width: 14px;
+          height: 11px;
+          display: inline-block;
+          background: url(../images/share01.png) no-repeat -384px -320px; }
+      .header .header-con .my-five i {
+        width: 1px;
+        height: 12px;
+        position: absolute;
+        right: 0;
+        top: 9px;
+        background: #dfdfdf; }
+      .header .header-con .my-five #myfive-dd {
+        width: 100%;
+        height: 150px;
+        display: none; }
+    .header .header-con .help {
+      width: 85px;
+      height: 30px;
+      float: left;
+      text-align: center;
+      font-size: 12px;
+      position: relative; }
+      .header .header-con .help i {
+        width: 1px;
+        height: 12px;
+        position: absolute;
+        right: 0;
+        top: 9px;
+        background: #dfdfdf; }
+      .header .header-con .help a {
+        color: #666;
+        line-height: 30px; }
+        .header .header-con .help a:hover {
+          color: orange; }
+    .header .header-con .phonedown {
+      width: 128px;
+      height: 30px;
+      float: left;
+      font-size: 12px;
+      text-align: center; }
+      .header .header-con .phonedown a {
+        color: #666;
+        line-height: 30px; }
+      .header .header-con .phonedown em {
+        width: 14px;
+        height: 11px;
+        display: inline-block;
+        background: url(../images/share01.png) no-repeat -384px -320px; }
+      .header .header-con .phonedown .phone-qr {
+        width: 106px;
+        height: 150px;
+        background: #fff;
+        padding: 0 11px;
+        display: none;
+        position: relative; }
+        .header .header-con .phonedown .phone-qr img {
+          width: 106px;
+          height: 106px; }
+        .header .header-con .phonedown .phone-qr p {
+          width: 106px;
+          height: 20px;
+          font-size: 12px;
+          color: #666;
+          line-height: 20px; }
+        .header .header-con .phonedown .phone-qr .phone-zengsong span {
+          font-size: 18px;
+          font-weight: 500;
+          color: #d00; }
+
+.logo {
+  width: 100%;
+  height: 110px;
+  background: #fff; }
+  .logo .logo-con {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto; }
+    .logo .logo-con .logo-pic {
+      width: 244px;
+      height: 110px;
+      float: left; }
+    .logo .logo-con .logo-ad {
+      width: 142px;
+      height: 80px;
+      float: left;
+      margin: 15px 0 0 50px; }
+    .logo .logo-con .search {
+      width: 347px;
+      height: 68px;
+      float: left;
+      margin: 36px 0 0 55px; }
+      .logo .logo-con .search form {
+        width: 347px;
+        height: 38px;
+        background: #c69c6d; }
+        .logo .logo-con .search form p {
+          width: 347px;
+          height: 38px;
+          background: #c69c6d; }
+          .logo .logo-con .search form p .search-input1 {
+            width: 263px;
+            height: 34px;
+            border: 0;
+            margin: 2px 0 2px 2px;
+            color: #bbbbbb;
+            font-size: 12px; }
+          .logo .logo-con .search form p .search-input2 {
+            width: 70px;
+            height: 34px;
+            border: 0;
+            background: #c69c6d;
+            color: #fff; }
+      .logo .logo-con .search .search-ul1 {
+        width: 343px;
+        height: 32px;
+        font-size: 12px; }
+        .logo .logo-con .search .search-ul1 li {
+          float: left;
+          margin-right: 24px; }
+          .logo .logo-con .search .search-ul1 li a {
+            display: block;
+            color: #bbb;
+            line-height: 32px; }
+            .logo .logo-con .search .search-ul1 li a:hover {
+              color: #d00; }
+    .logo .logo-con .seaenter {
+      width: 200px;
+      height: 30px;
+      float: left;
+      margin: 36px 0 0 55px; }
+      .logo .logo-con .seaenter p {
+        width: 200px;
+        height: 30px;
+        background: url(../images/overseadef.jpg) no-repeat; }
+        .logo .logo-con .seaenter p:hover {
+          background: url(../images/overseahov.jpg) no-repeat; }
+
+.nav {
+  width: 100%;
+  height: 40px;
+  background: #191919; }
+  .nav .nav-con {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto; }
+    .nav .nav-con .nav-ul1 {
+      width: 950px;
+      height: 40px;
+      float: left; }
+      .nav .nav-con .nav-ul1 li {
+        float: left; }
+        .nav .nav-con .nav-ul1 li .classify-a {
+          display: block;
+          width: 82px;
+          height: 40px;
+          font-size: 12px;
+          text-align: center;
+          line-height: 40px;
+          color: #b7a985; }
+          .nav .nav-con .nav-ul1 li .classify-a:hover {
+            color: #fff; }
+        .nav .nav-con .nav-ul1 li #commodity {
+          width: 130px;
+          height: 40px;
+          background: #cf0101;
+          color: #fff; }
+      .nav .nav-con .nav-ul1 .classify {
+        position: relative; }
+        .nav .nav-con .nav-ul1 .classify .menu-left {
+          width: 130px;
+          height: 540px;
+          background: rgba(255, 255, 255, 0.6);
+          z-index: 30;
+          display: none;
+          position: absolute;
+          left: 0;
+          top: 40px; }
+          .nav .nav-con .nav-ul1 .classify .menu-left .menu-box {
+            width: 130px;
+            height: 540px; }
+            .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li {
+              position: relative;
+              width: 130px;
+              height: 36px;
+              z-index: 40;
+              /* .active-nav{
+										background: url(../images/share01.png)no-repeat -200px -37px;
+										a{
+											color:#c29b6c;
+										}
+										
+								} */ }
+              .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-fenlei {
+                width: 130px;
+                height: 36px;
+                text-align: center; }
+                .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-fenlei a {
+                  display: block;
+                  width: 130px;
+                  height: 36px; }
+                  .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-fenlei a span {
+                    font-size: 12px;
+                    color: #000;
+                    line-height: 36px; }
+                .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-fenlei .active-nav {
+                  color: #c29b6c; }
+              .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing {
+                width: 800px;
+                height: 258px;
+                background: #fff;
+                position: absolute;
+                left: 130px;
+                top: 0px;
+                z-index: 30;
+                display: none; }
+                .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing1 {
+                  width: 530px;
+                  height: 64px;
+                  margin-left: 40px; }
+                  .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing1 h2 {
+                    float: left;
+                    width: 100px;
+                    height: 50px; }
+                    .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing1 h2 a {
+                      color: #d00;
+                      font-weight: 400;
+                      line-height: 50px;
+                      font-size: 14px; }
+                  .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing1 .a {
+                    width: 400px;
+                    height: 50px;
+                    float: left; }
+                    .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing1 .a a {
+                      font-size: 12px;
+                      color: #333; }
+                .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing-btn {
+                  width: 500px;
+                  height: 50px;
+                  margin-left: 40px; }
+                  .nav .nav-con .nav-ul1 .classify .menu-left .menu-box li .menu-xiangqing .xiangqing-btn a {
+                    display: block;
+                    float: left;
+                    width: 100px;
+                    height: 50px;
+                    text-align: center;
+                    color: #fff;
+                    background: red;
+                    line-height: 50px;
+                    margin-right: 30px; }
+      .nav .nav-con .nav-ul1 .find-store span {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        float: left; }
+      .nav .nav-con .nav-ul1 .find-store i {
+        display: inline-block;
+        float: left;
+        width: 19px;
+        height: 40px;
+        background: url(../images/share01.png) no-repeat -58px -169px; }
+    .nav .nav-con .fly-sea {
+      width: 100px;
+      height: 40px;
+      background: url(../images/oversea.gif) no-repeat;
+      float: left;
+      margin-right: 5px; }
+    .nav .nav-con .nav-icon {
+      width: 130px;
+      height: 40px;
+      float: left; }
+      .nav .nav-con .nav-icon li {
+        float: left; }
+      .nav .nav-con .nav-icon span {
+        width: 30px;
+        height: 40px;
+        display: block;
+        margin-right: 5px; }
+      .nav .nav-con .nav-icon .icon-1 {
+        background: url(../images/share01.png) no-repeat -238px -66px; }
+      .nav .nav-con .nav-icon .icon-2 {
+        background: url(../images/share01.png) no-repeat -297px -66px; }
+      .nav .nav-con .nav-icon .icon-3 {
+        background: url(../images/share01.png) no-repeat -352px -66px; }
+
+.lvlogo {
+  height: 140px; }
+  .lvlogo .lvlogo-con {
+    width: 1210px;
+    height: 140px;
+    margin: 0 auto;
+    background: #fff; }
+    .lvlogo .lvlogo-con .logo-box {
+      width: 1210px;
+      height: 140px; }
+      .lvlogo .lvlogo-con .logo-box .logo_l {
+        width: 160px;
+        height: 118px;
+        float: left;
+        margin: 10px 0 0 20px; }
+        .lvlogo .lvlogo-con .logo-box .logo_l ul {
+          width: 160px;
+          height: 118px; }
+          .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li1 {
+            width: 160px;
+            height: 88px; }
+            .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li1 div {
+              box-shadow: 0px -1px 8px #999,1px 1px 8px #999,1px 1px 8px #999,-1px 1px 8px #999; }
+              .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li1 div img {
+                height: 80px; }
+          .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li2 {
+            width: 140px;
+            height: 30px;
+            margin-left: 10px; }
+            .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li2 div {
+              width: 140px;
+              height: 30px;
+              background: #7c665d;
+              border-bottom-left-radius: 7px;
+              border-bottom-right-radius: 7px;
+              text-align: center;
+              -webkit-box-shadow: 0px 3px 5px #000; }
+              .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li2 div span {
+                width: 84px;
+                height: 12px;
+                font-size: 12px;
+                line-height: 12px; }
+                .lvlogo .lvlogo-con .logo-box .logo_l ul .logo-li2 div span a {
+                  width: 84px;
+                  height: 17px;
+                  color: #fff; }
+      .lvlogo .lvlogo-con .logo-box .logo_r {
+        width: 1030px;
+        height: 110px;
+        float: left;
+        margin-top: 30px; }
+        .lvlogo .lvlogo-con .logo-box .logo_r .logor-top {
+          width: 1030px;
+          height: 35px; }
+          .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop1 {
+            width: 248px;
+            height: 35px;
+            float: left;
+            font-size: 20px;
+            line-height: 35px;
+            color: #000;
+            margin: 0 380px 0 65px; }
+          .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop2 {
+            width: 78px;
+            height: 35px;
+            background: #fff;
+            float: left; }
+            .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop2 .sharespan1 {
+              width: 25px;
+              height: 35px;
+              display: inline-block;
+              float: left;
+              background: url(../images/brandstore.png) no-repeat -69px -335px; }
+            .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop2 .sharespan2 {
+              width: 53px;
+              height: 35px;
+              display: inline-block;
+              font-size: 12px;
+              color: #666;
+              float: left;
+              line-height: 35px;
+              cursor: pointer; }
+          .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop3 {
+            width: 140px;
+            height: 35px;
+            float: left; }
+            .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop3 .logo3-notice {
+              width: 100px;
+              height: 25px;
+              border: 1px solid #c8a985;
+              border-radius: 7px;
+              text-align: center;
+              margin: 5px 0 0 20px; }
+              .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop3 .logo3-notice span {
+                font-size: 12px;
+                line-height: 25px;
+                color: #666;
+                cursor: pointer; }
+          .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop4 {
+            width: 112px;
+            height: 35px;
+            float: left;
+            text-align: center; }
+            .lvlogo .lvlogo-con .logo-box .logo_r .logor-top .logortop4 span {
+              color: #d00;
+              font-size: 12px;
+              line-height: 35px;
+              cursor: pointer; }
+        .lvlogo .lvlogo-con .logo-box .logo_r .logor-bottom {
+          width: 780px;
+          height: 35px;
+          text-align: center;
+          line-height: 35px;
+          color: #999;
+          font-size: 12px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-top: 20px;
+          margin-left: 40px; }
+
+.logolist {
+  height: 180px;
+  margin-top: 10px; }
+  .logolist .logolist-con {
+    width: 1210px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background: #fff; }
+    .logolist .logolist-con .logo-title {
+      width: 600px;
+      height: 43px;
+      margin-left: 20px; }
+      .logolist .logolist-con .logo-title .logotitle-span1 {
+        display: inline-block;
+        width: 102px;
+        height: 35px; }
+        .logolist .logolist-con .logo-title .logotitle-span1 a {
+          color: #79502d;
+          font-size: 12px;
+          line-height: 35px; }
+      .logolist .logolist-con .logo-title b {
+        font-size: 20px;
+        color: #ccc; }
+      .logolist .logolist-con .logo-title .logotitle-span2 {
+        display: inline-block;
+        width: 193px;
+        height: 35px;
+        text-align: center; }
+        .logolist .logolist-con .logo-title .logotitle-span2 a {
+          color: #79502d;
+          font-size: 12px;
+          line-height: 35px; }
+    .logolist .logolist-con .logolist-jieshao {
+      width: 1170px;
+      height: 113px;
+      margin-left: 20px; }
+      .logolist .logolist-con .logolist-jieshao .logojieshao1 {
+        width: 1170px;
+        height: 45px;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6; }
+        .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left {
+          width: 584px;
+          height: 45px;
+          float: left; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left .wanbiao-title {
+            width: 86px;
+            height: 45px;
+            background: #f0f0f0;
+            text-align: center;
+            float: left;
+            font-size: 12px; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left .wanbiao-title a {
+              line-height: 45px;
+              color: #000;
+              font-weight: 600; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left .wanbiao-content {
+            width: 390px;
+            height: 45px;
+            float: left; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left .wanbiao-content div {
+              width: 196px;
+              height: 32px;
+              margin-top: 6px;
+              margin-left: 23px; }
+              .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left .wanbiao-content div a {
+                color: #6e3e0e;
+                font-size: 12px;
+                line-height: 32px;
+                margin-left: 20px;
+                display: block;
+                width: 45px;
+                height: 32px;
+                float: left;
+                text-align: center; }
+                .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-left .wanbiao-content div a:hover {
+                  background: #c69c6d; }
+        .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right {
+          width: 584px;
+          height: 45px;
+          float: left; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right .wanbiao-title {
+            width: 86px;
+            height: 45px;
+            background: #f0f0f0;
+            text-align: center;
+            float: left;
+            font-size: 12px; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right .wanbiao-title a {
+              line-height: 45px;
+              color: #000;
+              font-weight: 600; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right .wanbiao-content {
+            width: 390px;
+            height: 45px;
+            float: left; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right .wanbiao-content div {
+              width: 196px;
+              height: 32px;
+              margin-top: 6px;
+              margin-left: 23px; }
+              .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right .wanbiao-content div a {
+                color: #6e3e0e;
+                font-size: 12px;
+                line-height: 32px;
+                margin-left: 20px;
+                display: block;
+                width: 45px;
+                height: 32px;
+                float: left;
+                text-align: center; }
+                .logolist .logolist-con .logolist-jieshao .logojieshao1 .jieshao1-right .wanbiao-content div a:hover {
+                  background: #c69c6d; }
+      .logolist .logolist-con .logolist-jieshao .logojieshao2 {
+        width: 1169px;
+        height: 65px;
+        border-bottom: 2px solid #e6e6e6; }
+        .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left {
+          width: 584px;
+          height: 65px;
+          float: left; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left .bag-title {
+            width: 86px;
+            height: 65px;
+            background: #f0f0f0;
+            text-align: center;
+            float: left; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left .bag-title a {
+              font-size: 14px;
+              color: #000;
+              line-height: 45px;
+              font-weight: 600; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left .bag-content {
+            width: 390px;
+            height: 64px;
+            float: left; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left .bagcontent-a {
+            width: 390px;
+            height: 64px; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left .bagcontent-a a {
+              font-size: 12px;
+              color: #6e3e0e;
+              display: block;
+              line-height: 12px;
+              float: left;
+              text-align: center;
+              padding: 10px; }
+              .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-left .bagcontent-a a:hover {
+                background: #c69c6d; }
+        .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right {
+          width: 584px;
+          height: 45px;
+          float: left; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right .bag-title {
+            width: 86px;
+            height: 65px;
+            background: #f0f0f0;
+            text-align: center;
+            float: left; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right .bag-title a {
+              font-size: 14px;
+              color: #000;
+              line-height: 45px;
+              font-weight: 600; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right .bag-content {
+            width: 390px;
+            height: 64px;
+            float: left; }
+          .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right .bagcontent-a {
+            width: 390px;
+            height: 64px; }
+            .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right .bagcontent-a a {
+              font-size: 12px;
+              color: #6e3e0e;
+              display: block;
+              line-height: 12px;
+              float: left;
+              text-align: center;
+              padding: 10px;
+              margin-left: 40px; }
+              .logolist .logolist-con .logolist-jieshao .logojieshao2 .jieshao2-right .bagcontent-a a:hover {
+                background: #c69c6d; }
+
+.lv-price {
+  height: 55px;
+  margin-top: 10px; }
+  .lv-price .lvprice-con {
+    width: 1210px;
+    height: 55px;
+    background: #fff;
+    margin: 0 auto; }
+    .lv-price .lvprice-con ul {
+      width: 1210px;
+      height: 55px; }
+      .lv-price .lvprice-con ul li {
+        width: 1160px;
+        height: 55px;
+        margin-left: 50px; }
+        .lv-price .lvprice-con ul li .price-top {
+          width: 83px;
+          height: 45px;
+          color: #6e3e0e;
+          text-align: center;
+          line-height: 45px;
+          font-size: 14px;
+          float: left; }
+        .lv-price .lvprice-con ul li .price-right {
+          width: 1000px;
+          height: 55px;
+          float: left; }
+          .lv-price .lvprice-con ul li .price-right .price-abox {
+            width: 828px;
+            height: 32px; }
+            .lv-price .lvprice-con ul li .price-right .price-abox a {
+              color: #923e2c;
+              font-size: 12px;
+              display: block;
+              float: left;
+              padding: 10px; }
+              .lv-price .lvprice-con ul li .price-right .price-abox a:hover {
+                background: #c69c6d;
+                color: #fff; }
+            .lv-price .lvprice-con ul li .price-right .price-abox .check_all {
+              background: #c69c6d;
+              color: #fff;
+              margin-right: 10px; }
+
+.lvselect {
+  height: 56px;
+  margin-top: 10px; }
+  .lvselect .lvselect-con {
+    width: 1210px;
+    height: 46px;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 10px; }
+    .lvselect .lvselect-con .lvselect-box {
+      width: 1210px;
+      height: 46px; }
+      .lvselect .lvselect-con .lvselect-box .lvselect-boxa {
+        width: 320px;
+        height: 27px;
+        border: 1px solid #c9c9c9;
+        border-right: 0;
+        margin-left: 10px; }
+        .lvselect .lvselect-con .lvselect-box .lvselect-boxa a {
+          display: block;
+          width: 62px;
+          height: 27px;
+          border-right: 1px solid #c9c9c9;
+          float: left;
+          text-align: center;
+          line-height: 27px;
+          font-size: 12px;
+          color: #666666; }
+          .lvselect .lvselect-con .lvselect-box .lvselect-boxa a:hover {
+            color: #c69c6d; }
+        .lvselect .lvselect-con .lvselect-box .lvselect-boxa .check-a5 {
+          width: 67px; }
+        .lvselect .lvselect-con .lvselect-box .lvselect-boxa .check-a1 {
+          background: #c69c6d;
+          color: #fff; }
+
+.stblock-box {
+  height: 10000px;
+  margin-top: 10px;
+  background: #000; }
+  .stblock-box .stblockbox-con {
+    height: 10000px;
+    width: 1240px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative; }
+    .stblock-box .stblockbox-con .pitem {
+      width: 290px;
+      height: 480px;
+      background: #fff;
+      float: left;
+      padding: 10px 10px; }
+      .stblock-box .stblockbox-con .pitem:hover {
+        background: #f2f2f2; }
+      .stblock-box .stblockbox-con .pitem .inbox {
+        width: 270px;
+        height: 460px;
+        padding: 10px 10px;
+        background: #fff; }
+        .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 {
+          width: 270px;
+          height: 460px; }
+          .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 .inbox-img {
+            width: 267px;
+            height: 267px; }
+            .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 .inbox-img img {
+              width: 267px;
+              height: 267px; }
+          .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 .inbox-txt {
+            width: 270px;
+            height: 48px;
+            text-align: center;
+            margin-top: 10px; }
+            .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 .inbox-txt a {
+              color: #471f6f;
+              font-size: 12px;
+              line-height: 12px; }
+          .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 .inbox-price {
+            width: 270px;
+            height: 34px;
+            text-align: center;
+            margin-top: 10px; }
+            .stblock-box .stblockbox-con .pitem .inbox .inbox-ul1 .inbox-price a {
+              color: #c2a69d;
+              line-height: 34px;
+              font-size: 12px; }
+    .stblock-box .stblockbox-con .list-fenye {
+      width: 1240px;
+      height: 100px;
+      background: red;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+
+.bottom {
+  height: 600px;
+  border-top: 1px solid #c9c9c9;
+  background: url(../images/footer.jpg) no-repeat; }
+  .bottom .bottom-con {
+    width: 1210px;
+    height: 400px;
+    margin: 0 auto; }
+    .bottom .bottom-con .bottom1 {
+      width: 1210px;
+      height: 116px; }
+      .bottom .bottom-con .bottom1 .bottom11 {
+        width: 242px;
+        height: 64px;
+        margin-top: 26px;
+        float: left; }
+        .bottom .bottom-con .bottom1 .bottom11 .bottom11-pic {
+          width: 79px;
+          height: 64px;
+          float: left; }
+        .bottom .bottom-con .bottom1 .bottom11 .bottom11-txt {
+          width: 160px;
+          height: 48px;
+          font-size: 12px;
+          float: left;
+          margin-top: 20px; }
+          .bottom .bottom-con .bottom1 .bottom11 .bottom11-txt .txt-p1 {
+            color: #000000;
+            font-weight: 600; }
+          .bottom .bottom-con .bottom1 .bottom11 .bottom11-txt .txt-p2 {
+            color: #333333; }
+            .bottom .bottom-con .bottom1 .bottom11 .bottom11-txt .txt-p2:hover {
+              text-decoration: underline; }
+    .bottom .bottom-con .bottom2 {
+      height: 450px;
+      border-top: 1px solid #c9c9c9; }
+      .bottom .bottom-con .bottom2 .foot-top {
+        width: 1280px;
+        height: 283px; }
+        .bottom .bottom-con .bottom2 .foot-top .foottop-ul {
+          padding-left: 20px; }
+          .bottom .bottom-con .bottom2 .foot-top .foottop-ul li {
+            width: 185px;
+            height: 160px;
+            float: left; }
+            .bottom .bottom-con .bottom2 .foot-top .foottop-ul li span {
+              display: block;
+              font-size: 12px; }
+              .bottom .bottom-con .bottom2 .foot-top .foottop-ul li span a {
+                color: #333333;
+                line-height: 24px; }
+                .bottom .bottom-con .bottom2 .foot-top .foottop-ul li span a:hover {
+                  text-decoration: underline; }
+            .bottom .bottom-con .bottom2 .foot-top .foottop-ul li .sp01 {
+              color: #000;
+              line-height: 38px;
+              font-weight: 600; }
+          .bottom .bottom-con .bottom2 .foot-top .foottop-ul .weibo {
+            width: 130px;
+            height: 283px;
+            float: left; }
+      .bottom .bottom-con .bottom2 .foot-bottom {
+        width: 1210px;
+        height: 177px; }
+        .bottom .bottom-con .bottom2 .foot-bottom .mess-btm {
+          width: 1210px;
+          height: 66px;
+          text-align: center; }
+          .bottom .bottom-con .bottom2 .foot-bottom .mess-btm a {
+            color: #000;
+            line-height: 66px;
+            font-size: 12px; }
+            .bottom .bottom-con .bottom2 .foot-bottom .mess-btm a:hover {
+              text-decoration: underline; }
+        .bottom .bottom-con .bottom2 .foot-bottom .mess-btm2 {
+          width: 1210px;
+          height: 48px;
+          text-align: center; }
+          .bottom .bottom-con .bottom2 .foot-bottom .mess-btm2 a {
+            color: #000;
+            font-size: 12px; }
+            .bottom .bottom-con .bottom2 .foot-bottom .mess-btm2 a:hover {
+              text-decoration: underline; }
+          .bottom .bottom-con .bottom2 .foot-bottom .mess-btm2 p {
+            font-size: 12px; }
+        .bottom .bottom-con .bottom2 .foot-bottom .mess-btm3 {
+          width: 810px;
+          height: 40px;
+          padding-left: 400px; }
+          .bottom .bottom-con .bottom2 .foot-bottom .mess-btm3 img {
+            float: left; }
+
+.fixed {
+  width: 37px;
+  height: 383px;
+  position: fixed;
+  right: 0;
+  top: 200px;
+  z-index: 100; }
+  .fixed .fixed-top {
+    width: 35px;
+    height: 234px; }
+    .fixed .fixed-top ul {
+      width: 35px;
+      height: 147px; }
+      .fixed .fixed-top ul li {
+        width: 35px;
+        height: 35px;
+        background: #333;
+        margin-bottom: 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px; }
+        .fixed .fixed-top ul li div {
+          width: 35px;
+          height: 35px; }
+        .fixed .fixed-top ul li a {
+          color: #000; }
+        .fixed .fixed-top ul li .menu-bao-div {
+          background: url(../images/share01.png) no-repeat -86px -159px; }
+      .fixed .fixed-top ul .menu-zichan .zichan-div {
+        background: url(../images/share01.png) no-repeat -140px -154px;
+        position: relative; }
+        .fixed .fixed-top ul .menu-zichan .zichan-div .zichan-tab {
+          width: 100px;
+          height: 35px;
+          background: #fff;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: -1;
+          line-height: 35px;
+          display: none;
+          border: 1px solid #ccc; }
+      .fixed .fixed-top ul .menu-like {
+        position: relative; }
+        .fixed .fixed-top ul .menu-like .like-div {
+          background: url(../images/share01.png) no-repeat -202px -155px; }
+          .fixed .fixed-top ul .menu-like .like-div .like-tab {
+            width: 100px;
+            height: 35px;
+            background: #fff;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            line-height: 35px;
+            display: none;
+            border: 1px solid #ccc; }
+      .fixed .fixed-top ul .menu-zixun {
+        position: relative; }
+        .fixed .fixed-top ul .menu-zixun .zixun-div {
+          background: url(../images/share01.png) no-repeat -258px -163px; }
+          .fixed .fixed-top ul .menu-zixun .zixun-div .zixun-tab {
+            width: 100px;
+            height: 35px;
+            background: #fff;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            line-height: 35px;
+            border: 1px solid #ccc; }
+  .fixed .fixed-bottom {
+    width: 35px;
+    height: 140px; }
+    .fixed .fixed-bottom ul {
+      width: 35px;
+      height: 147px; }
+      .fixed .fixed-bottom ul li {
+        width: 35px;
+        height: 35px;
+        background: #333;
+        margin-bottom: 1px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px; }
+        .fixed .fixed-bottom ul li div {
+          width: 35px;
+          height: 35px; }
+        .fixed .fixed-bottom ul li a {
+          color: #000; }
+      .fixed .fixed-bottom ul .menu-weixin {
+        position: relative; }
+        .fixed .fixed-bottom ul .menu-weixin .weixin-div {
+          background: url(../images/share01.png) no-repeat -312px -155px; }
+        .fixed .fixed-bottom ul .menu-weixin .weixin-tab {
+          width: 100px;
+          height: 35px;
+          background: blue;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: -1;
+          line-height: 35px;
+          display: none; }
+      .fixed .fixed-bottom ul .menu-dianhua {
+        position: relative; }
+        .fixed .fixed-bottom ul .menu-dianhua .dianhua-div {
+          background: url(../images/share01.png) no-repeat -376px -155px; }
+        .fixed .fixed-bottom ul .menu-dianhua .dianhua-tab {
+          width: 100px;
+          height: 35px;
+          background: blue;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: -1;
+          line-height: 35px;
+          display: none; }
+      .fixed .fixed-bottom ul .menu-bi {
+        position: relative; }
+        .fixed .fixed-bottom ul .menu-bi .bi-div {
+          background: url(../images/share01.png) no-repeat -376px -155px; }
+        .fixed .fixed-bottom ul .menu-bi .bi-tab {
+          width: 100px;
+          height: 35px;
+          background: blue;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: -1;
+          line-height: 35px;
+          display: none; }
+      .fixed .fixed-bottom ul .menu-dingbu {
+        position: relative; }
+        .fixed .fixed-bottom ul .menu-dingbu .dingbu-div {
+          background: url(../images/share01.png) no-repeat -439px -157px; }
+        .fixed .fixed-bottom ul .menu-dingbu .dingbu-tab {
+          width: 100px;
+          height: 35px;
+          background: blue;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: -1;
+          line-height: 35px;
+          display: none; }
